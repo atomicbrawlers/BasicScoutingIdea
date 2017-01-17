@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Scouting"
+        android:id="@+id/menu_scouting">
+        <menu >
+            <item android:title="Autonomous"
+                android:id="@+id/tab_auto" />
+            <item android:title="Tele-operated"
+                android:id="@+id/tab_teleop" />
+        </menu>
+    </item>
+
+    <item android:title="Import/Export"
+        android:id="@+id/menu_import_export">
+        <menu>
+            <item
+                android:id="@+id/tab_import"
+                android:title="Import" />
+            <item
+                android:id="@+id/tab_export"
+                android:title="Export" />
+        </menu>
+    </item>
+
+</menu>
