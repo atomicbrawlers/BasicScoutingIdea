@@ -1,5 +1,6 @@
 package com.example.basicscoutingidea;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -81,13 +82,13 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.tab_auto) {
-
+            startActivity(new Intent (this, Auto.class));
         } else if (id == R.id.tab_teleop) {
-
+            startActivity(new Intent (this, Teleop.class));
         } else if (id == R.id.tab_import) {
-
+            startActivity(new Intent (this, Import.class));
         } else if (id == R.id.tab_export) {
-
+            startActivity(new Intent (this, Export.class));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

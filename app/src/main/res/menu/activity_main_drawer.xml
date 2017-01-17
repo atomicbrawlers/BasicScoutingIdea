@@ -22,5 +22,16 @@
                 android:title="Export" />
         </menu>
     </item>
+    <item android:title="Data"
+        android:id="@+id/menu_data" >
+        <menu >
+            <item
+                android:id="@+id/tab_auto_data"
+                android:actionViewClass="android.support.v7.widget.SearchView"
+                android:title="Auto Data" />
+            <item android:title="Teleop Data"
+                android:id="@+id/tab_teleop_data" />
+        </menu>
+    </item>
 
 </menu>

@@ -21,7 +21,8 @@
         <activity android:name=".Auto" />
         <activity android:name=".Teleop" />
         <activity android:name=".Import" />
-        <activity android:name=".Export"></activity>
+        <activity android:name=".Export" />
+        <activity android:name=".AutoData"></activity>
     </application>
 
 </manifest>
